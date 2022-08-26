@@ -75,6 +75,13 @@ h1{
     cursor: pointer;
 }
 
+.button.active{
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+    background: #7e8798;
+}
+
 .submit{
     background: #fc7613;
     margin: 50px 0;
