@@ -27,6 +27,10 @@ section{
     border-radius: 25px;
 }
 
+.hide{
+    display: none;
+}
+
 .icon{
     margin-bottom: 10px;
     background: #262f38;
@@ -75,11 +79,15 @@ h1{
     cursor: pointer;
 }
 
-.button.active{
+.active{
     top: 2px;
     left: 1px;
     box-shadow: none;
     background: #7e8798;
+}
+
+input{
+    margin: none;
 }
 
 .submit{
@@ -99,4 +107,46 @@ h1{
     background: #fff;
     color: #fc7613;
     cursor: pointer;
+}
+
+
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.msg{
+    width: 50%;
+    text-align: center;
+    margin-top: 1.2rem;
+    background: #262f38;
+    padding: 0.6rem;
+    border-radius: 40px;
+    color: #fc7613;
+    font-family: "Overpass";
+    font-weight: 200;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content2{
+    font-family: "Overpass";
+    font-weight: 200;
+    color: #fff;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: large;
 }
